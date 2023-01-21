@@ -162,6 +162,8 @@ elif numberA == 3:
             numberA = InputNumb(s1, s2, s3)
         elif numberHod == 2:
             numberA = iStart % 29  # 'интеллект' бота
+            if numberA == 0:
+                numberA = randint(1, 28)  # случайные числа от 1 до 28
         iStart -= numberA
         if numberA == 0:
             break
