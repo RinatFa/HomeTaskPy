@@ -1,0 +1,1 @@
+print('Name bot: rin1_python_bot')
